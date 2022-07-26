@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    text-align: center;
+    font-family: 'Times New Roman';
+    margin-top: 10px;
+}
+.Clock{
+    display: flex;
+   justify-content: center;
+
+}
+#hours{
+    font-size: 50px;
+    margin: 12px;
+    background-color: aqua;
+   padding: 10px;
+}
+#minutes{
+    font-size: 50px;
+    margin: 12px;
+    background-color: aqua;
+    padding: 10px; 
+    
+}
+#seconds{
+    background-color: aqua;
+    padding: 10px;
+    font-size: 50px;
+    margin: 12px;
+    
+}
+
+span{
+    font-size: 80px;
+}
+.Clock{
+    position: absolute;
+    top: 10rem;
+    left: 40%;
+    
+}
